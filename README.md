@@ -78,7 +78,7 @@ If a **game update** ever stops the tool from working, the intro file's internal
 
 ## 🧩 Building from source
 
-Don't trust a random .exe? Build it yourself — it's open source.
+Don't trust a random .exe? Build it yourself - it's open source.
 
 **Requirements:** Windows + [Python 3.10+](https://www.python.org/downloads/) (tick *"Add Python to PATH"* during install).
 
@@ -93,7 +93,7 @@ pyinstaller --onefile --windowed --name FH6IntroSongSwapper --icon revtoolz.ico 
 
 You can also just run it without building: `python FH6IntroSongSwapper.py`
 
-**How it works:** the song is decoded with ffmpeg, your chosen ~80s section is wrapped in an FMOD FSB5 (PCM) container, and spliced into the game's `.bank` file with all size/offset fields fixed up — the original event data is preserved untouched.
+**How it works:** the song is decoded with ffmpeg, your chosen ~80s section is wrapped in an FMOD FSB5 (PCM) container, and spliced into the game's `.bank` file with all size/offset fields fixed up, leaving the original event data untouched.
 
 ---
 
