@@ -4,7 +4,9 @@
 
 Made by **Esko Kustomz @ RevToolz** - https://eskokustomz.com/revtoolz
 
-![RevToolz](https://eskokustomz.com/revtoolz)
+<p align="center">
+  <img src="preview.png" alt="Intro Song Swapper" width="500">
+</p>
 
 ---
 
