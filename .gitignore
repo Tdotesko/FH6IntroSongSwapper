@@ -1,0 +1,16 @@
+# Build output
+build/
+dist/
+*.spec
+
+# Staged during build
+ffmpeg.exe
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Product exe is distributed via GitHub Releases, not committed
+*.exe

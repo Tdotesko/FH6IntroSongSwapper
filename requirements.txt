@@ -1,0 +1,5 @@
+# Runtime + build dependencies for Intro Song Swapper
+numpy
+sounddevice
+imageio-ffmpeg
+pyinstaller
